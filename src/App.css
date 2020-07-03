@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.heading
+{
+ font-family: times;
+ margin: 0;
+ padding: 0px 0px 6px 0px;
+ font-size: 51px;
+ line-height: 44px;
+ font-weight: bold;
+}
