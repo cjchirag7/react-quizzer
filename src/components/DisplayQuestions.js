@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {Form, Spinner, FormGroup, Label, Input, Alert} from 'reactstrap';
 
 function DisplayQuestions(props)
@@ -18,7 +18,7 @@ function DisplayQuestions(props)
       ) : (
         <div className='row'>
           <div className='col-12 text-center'>
-            <img src={image} />
+            <img src={image} alt="loading" />
           </div>
         </div>
       )}
